@@ -17,3 +17,9 @@ actions:
           - echo
         args:
           - 'Hello again!!! this is Zero! I am from Team A'
+      - name: "Say Hello World Again"
+        image: "ubuntu"
+        cmd:
+          - echo
+        args:
+          - 'Hello from Ubuntu!!! Zero from Team A'
