@@ -23,3 +23,7 @@ actions:
           - echo
         args:
           - 'Hello from Ubuntu!!! Zero from Team A'
+      - name: "Run a Shell"
+        image: "ubuntu"
+        cmd:
+          - ls -lah
