@@ -26,4 +26,7 @@ actions:
       - name: "Run a shell"
         image: "ubuntu"
         cmd:
-          - ls -lah
+          - ls
+        args:
+          - -lah
+                
